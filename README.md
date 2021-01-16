@@ -1,23 +1,13 @@
 # Uber-Analysis
-Introduction
+
+#Introduction
+
 This data set is a masked data set which is similar to what data analysts at Uber handle. Solving
 this assignment will give you an idea about how problems are systematically solved using EDA
 and data visualisation.
-Business Understanding
-You may have some experience of travelling to and from the airport. Have you ever used Uber
-or any other cab service for this travel? Did you at any time face the problem of cancellation by
-the driver or non-availability of cars?
-Well, if these are the problems faced by customers, these very issues also impact the business
-of Uber. If drivers cancel the request of riders or if cars are unavailable, Uber loses out on its
-revenue.
-As an analyst, you decide to address the problem Uber is facing
-#Business Objectives
-The aim of analysis is to identify the root cause of the problem (i.e. cancellation and non-availability of cars) and recommend ways to improve the situation.
-Introduction
-This data set is a masked data set which is similar to what data analysts at Uber handle. Solving
-this assignment will give you an idea about how problems are systematically solved using EDA
-and data visualisation.
-Business Understanding
+
+#Business Understanding
+
 You may have some experience of travelling to and from the airport. Have you ever used Uber
 or any other cab service for this travel? Did you at any time face the problem of cancellation by
 the driver or non-availability of cars?
@@ -26,12 +16,16 @@ of Uber. If drivers cancel the request of riders or if cars are unavailable, Ube
 revenue.
 As an analyst, you decide to address the problem Uber is facing - driver cancellation and
 non-availability of cars leading to loss of potential revenue.
-Business Objectives
+
+#Business Objectives
+
 The aim of analysis is to identify the root cause of the problem (i.e. cancellation and
 non-availability of cars) and recommend ways to improve the situation. As a result of your
 analysis, you should be able to present to the client the root cause(s) and possible hypotheses
 of the problem(s) and recommend ways to improve them.
-Data Understanding
+
+#Data Understanding
+
 Download the dataset from below.
 https://drive.google.com/file/d/1qxKTDG3cIJFW98Xt1YbM1Q6fwvjqpcId/view?usp=sharing
 There are six attributes associated with each request made by a customer:
@@ -43,11 +37,15 @@ There are six attributes associated with each request made by a customer:
 6. Status of the request: The final status of the trip, that can be either completed, cancelled
 by the driver or no cars available
 Note: For this assignment, only the trips to and from the airport are being considered.
-Data Cleaning and Preparation - Hints
+
+#Data Cleaning and Preparation - Hints
+
 1. Identify the data quality issues and clean the data so that you can use it for analysis.
 2. Ensure that the dates and time are in the proper format. Derive new variables which will
 be useful for analysis.
-Results Expected
+
+#Results Expected
+
 1. Visually identify the most pressing problems for Uber.
 a. Hint: Create plots to visualise the frequency of requests that get cancelled or
 show 'no cars available'; identify the most problematic types of requests (city to
